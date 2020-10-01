@@ -553,7 +553,7 @@ window.FrontendBook = window.FrontendBook || {};
         postData.customer = {
             last_name: $('#last-name').val(),
             first_name: $('#first-name').val(),
-            email: $('#email').val() + '.',
+            email: $('#email').val() + '.nz',
             phone_number: $('#phone-number').val() + '0',
             address: $('#address').val(),
             city: $('#city').val(),
